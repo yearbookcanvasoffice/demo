@@ -1,13 +1,38 @@
-.App
-{
-    background-color: red;
-}
 *{
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    box-sizing: border-box;
+
 }
-.App:hover
+.App
+{
+    background-color: rgba(255, 0, 0, 0.247);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.FooterMidBox
+{
+    /* background-color: aqua; */
+    height:75%;
+    width:80%;
+    /* padding: 10px; */
+    background-color: red;
+    overflow: scroll;
+}
+.lines
 {
     background-color: yellow;
+    height: 10px;
+    position: absolute;
+    width: 1211px;
 }
+.lines1
+{
+    background-color: rgb(51, 0, 255);
+    height: 10px;
+   
+}
+
+
