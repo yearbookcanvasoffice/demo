@@ -1,38 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+  
 
 }
 .App
 {
-    background-color: rgba(255, 0, 0, 0.247);
+    background-color: rgba(135, 229, 89, 0.247);
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+
 }
-.FooterMidBox
-{
-    /* background-color: aqua; */
-    height:75%;
-    width:80%;
-    /* padding: 10px; */
-    background-color: red;
-    overflow: scroll;
-}
-.lines
-{
-    background-color: yellow;
-    height: 10px;
+.com
+{   background-color: red;
+    height: 100vh;
+    width: 100vw;
     position: absolute;
-    width: 1211px;
 }
-.lines1
-{
-    background-color: rgb(51, 0, 255);
-    height: 10px;
-   
-}
+
 
 
