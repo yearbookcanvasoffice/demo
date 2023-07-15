@@ -16,10 +16,37 @@
 
 }
 .com
-{   background-color: red;
+{   background-color: rgb(7, 0, 0);
     height: 100vh;
     width: 100vw;
     position: absolute;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.com input
+{
+    height: 50px;
+    width: 50vw;
+    outline: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: transparent;
+}
+.pad12
+{
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.pad12 div:nth-child(odd)
+{
+ background-color: rgb(231, 228, 228);
 }
 
 
